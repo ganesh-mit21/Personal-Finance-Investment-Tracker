@@ -1,5 +1,16 @@
 # 📊 Salesforce Business Finance & Investment Tracker  
 
+## Problem Statement  
+Small and medium-sized businesses (SMBs) face **fragmented financial management**. Income, expenses, invoices, and investment data are spread across spreadsheets, accounting tools, and bank portals. This leads to:  
+- Delayed visibility into **cash flow and profitability**  
+- Missed **receivables and overdue invoices**  
+- Poor tracking of **company investments and ROI**  
+- Lack of **forecasting for expansion or compliance**  
+
+**Goal:** Build a Salesforce-based **Business Finance & Investment Tracker** that centralizes all financial data, enables automation, and provides dashboards for better decision-making.  
+
+---
+
 ## 🚀 Project Overview  
 The **Salesforce Business Finance & Investment Tracker** is a cloud-based solution built on Salesforce to help **small & medium-sized businesses (SMBs)** manage their **financial operations, investments, and cash flow** in one centralized system.  
 
@@ -7,22 +18,22 @@ Instead of relying on scattered spreadsheets and manual processes, this project 
 
 ---
 
-## 🛠 Features  
-- **Financial Data Centralization** – Track income, expenses, invoices, and vendor payments.  
-- **Accounts Receivable & Payable** – Manage outstanding invoices and due dates.  
-- **Investment Tracking** – Monitor returns from FDs, mutual funds, equities, or bonds.  
-- **Cash Flow Dashboards** – Real-time visibility of inflows, outflows, and reserves.  
-- **Goal-Based Planning** – Align financial decisions with business expansion goals.  
-- **Automation** – Invoice reminders, recurring expense tracking, and compliance alerts.  
-- **Role-Based Access** – CFO, Finance Managers, Accountants, and Auditors with specific permissions.  
+## 📑 Requirement Gathering  
+- **Core Finance Tracking**: Income, expenses, invoices, vendor payments  
+- **Investment Monitoring**: Fixed deposits, mutual funds, stocks, bonds  
+- **Cash Flow Dashboards**: Real-time inflow vs outflow visualization  
+- **Automation**: Invoice reminders, expense categorization, recurring transactions  
+- **Compliance Support**: GST/tax calculation, audit-ready reports  
+- **External API Integration**: Market data (Alpha Vantage), notifications (Twilio)  
 
 ---
 
-## 🧑‍🤝‍🧑 Stakeholders & Users  
-- **Business Owner / CEO** – High-level dashboards, profitability insights.  
-- **CFO / Finance Head** – Investment performance, forecasting, compliance.  
-- **Finance Team / Accountants** – Daily transaction entry, invoice management.  
-- **Auditors / Advisors** – Limited access for reviews and compliance reporting.  
+## 👥 Stakeholder Analysis  
+- **Business Owner / CEO** → Wants profitability dashboards and investment summaries  
+- **CFO / Finance Head** → Needs forecasting, investment performance, compliance oversight  
+- **Finance Manager** → Day-to-day transaction entry, invoice handling, vendor management  
+- **Accountants** → Manage expenses, ensure accuracy of financial entries  
+- **Auditors / Advisors** → Review-only access for compliance and reporting validation  
 
 ---
 
@@ -60,7 +71,16 @@ This project follows a **10-phase Salesforce Implementation Lifecycle**:
 
 ---
 
-## 📊 Demo & Deliverables  
+## Business Process Mapping  
+1. **Revenue Cycle** → Invoice generation → client payment tracking → overdue reminders  
+2. **Expense Cycle** → Expense creation → approval (if required) → categorization → reporting  
+3. **Investment Cycle** → Add new investment → update market value → calculate ROI  
+4. **Cash Flow Monitoring** → Daily/Monthly dashboards showing inflows, outflows, reserves  
+5. **Forecasting** → Predict cash reserves, runway, or expansion feasibility  
+
+---
+
+## Demo & Deliverables  
 - **Functional Salesforce Org with Finance Objects & Automations**  
 - **Sample Business Data (Invoices, Investments, Expenses)**  
 - **Dashboards for CFO & Finance Team**  
@@ -68,7 +88,7 @@ This project follows a **10-phase Salesforce Implementation Lifecycle**:
 
 ---
 
-## 🌟 Outcome  
+## Outcome  
 By the end of this project, SMBs will have a **centralized finance & investment tracker** on Salesforce that improves:  
 ✔️ Financial visibility  
 ✔️ Decision-making speed  
