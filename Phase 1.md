@@ -50,7 +50,7 @@ This project follows a **10-phase Salesforce Implementation Lifecycle**:
 ---
 
 ## ⚙️ Tech Stack  
-- **Salesforce CRM (Enterprise Edition)**  
+- **Salesforce CRM (Developer Edition)**  
 - **Lightning App Builder**  
 - **Flow Builder & Process Automation**  
 - **Apex Classes & Triggers**  
